@@ -21,7 +21,7 @@ public class ExtentReporter {
 		extentReports.attachReporter(sparkReporter);
 		Properties extentConfig = new Properties();
 		File extentConfigFile = new File(System.getProperty("user.dir")
-				+ "\\src\\main\\java\\com\\tutorialninja\\qa\\config\\config.properties");
+				+ "\\src\\main\\java\\com\\agrichain\\qa\\config\\config.properties");
 		try {
 			FileInputStream fis = new FileInputStream(extentConfigFile);
 			extentConfig.load(fis);
